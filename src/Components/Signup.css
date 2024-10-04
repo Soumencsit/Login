@@ -1,0 +1,173 @@
+.container {
+
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+
+    flex: 1;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .activeTab {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .input {
+   
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .passwordContainer {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .passwordToggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+  .forgotPassword {
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .socialLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .socialIcon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+  
+  .socialText {
+    margin-left: 10px;
+  }
+
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+
+  
+
+  .loginContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logintabs{
+    width: 30%;
+    display: flex;
+    margin-bottom: 20px;
+
+  }
+
+  .login{
+    
+    
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .active{
+    background-color: #ffa500;
+    color: white;
+  }
+  .passinput{
+    /* width: 100%; */
+    
+
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .password{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+ .socialLogin{
+    padding: 5px 10px;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    
+ }
+
+
+ .socialIcon{
+    height: 1rem;
+    width: 1rem;
+ }
+ .socialText{
+    font-weight: bold;
+    font-size: 12px;
+ }

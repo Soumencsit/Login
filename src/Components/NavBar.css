@@ -1,0 +1,120 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    /* margin-right: 20px; */
+    height: 20px;
+    width: 30px;
+
+  }
+  
+  .search-bar {
+    flex: 1;
+    position: relative;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .navigation {
+    margin-left: 20px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation ul li {
+    margin-right: 20px;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .language-and-account {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .language {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .language img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .delivery {
+    margin-right: 20px;
+  }
+  
+  .language-selector {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .language-selector span {
+    margin-right: 5px;
+  }
+  
+  .language-selector img {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .account {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .account span {
+    margin-right: 5px;
+  }
+  
+  .account img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .search-bar {
+      flex: 0;
+      margin-bottom: 10px;
+    }
+  
+    .navigation {
+      display: none;
+    }
+  }

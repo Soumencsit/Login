@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .statistics {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .statistics li {
+    margin-bottom: 10px;
+  }
+  
+  .app-download {
+    display: flex;
+    align-items: center;
+  }
+  
+  .app-download img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .app-download a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+  }
